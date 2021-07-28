@@ -1,0 +1,162 @@
+/* ========================== 
+        google fonts 
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+/* ========================== 
+       Root variables
+============================ */
+:root{
+
+    /* ---fonts variable---- */
+    --mainFont :'Montserrat', sans-serif;
+    --fontBold:700;
+    --fontSemi:600;
+    --fontMedium:500;
+    --fontRegular:400;
+    --fontLight:300;
+    
+
+    /* ---color variable---- */
+
+
+
+    
+}
+
+
+/* ========================== 
+      Reset CSS
+============================ */
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+     -webkit-box-flex: 0;
+     -ms-flex: 0 0 auto;
+         flex: 0 0 auto;
+}
+
+
+
+/* ========================== 
+     Global CSS
+============================ */
+
+li{
+    list-style: none;
+}
+a{
+     text-decoration: none;
+}
+
+ul{
+    display: flex;
+}
+
+
+
+body{
+    font-family:var(--mainFont);
+}
+
+
+
+
+
+/* ========================== 
+     home  section style
+============================ */
+
+
+header{
+     background-color: #FFF9F4;
+}
+header .logo-img{
+     max-width: 10rem;
+}
+
+
+header .home__img {
+     max-width: 60%;
+}
+
+
+header .hero__text{
+     font-weight: 800;
+}
+
+.btn__buy{
+     font-size: .7rem;
+     font-weight: 800;
+}
+
+
+
+/* ========================== 
+     casual shoes section style
+============================ */
+.casual__shoes img{
+     max-width: 50%;
+}
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+        Google fonts 
+============================ */
+
+
+
+
+
+
+/* ========================== 
+ Responsive  Media Queries
+============================ */
+
+
+@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1200px) {}
