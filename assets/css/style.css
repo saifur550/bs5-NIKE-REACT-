@@ -71,17 +71,22 @@ body{
      home  section style
 ============================ */
 
-
-header{
+header {
      background-color: #FFF9F4;
+     min-height: 100vh;
+	
 }
+
+
+
+
 header .logo-img{
-     max-width: 10rem;
+     max-width: 14rem;
 }
 
 
 header .home__img {
-     max-width: 60%;
+     max-width: 100%;
 }
 
 
@@ -89,10 +94,13 @@ header .hero__text{
      font-weight: 800;
 }
 
+
 .btn__buy{
      font-size: .7rem;
      font-weight: 800;
 }
+
+
 
 
 
@@ -106,7 +114,16 @@ header .hero__text{
 /* ========================== 
      ---- section style
 ============================ */
-
+.img-card {
+     background: #F1F1F1;
+     margin: 0 auto;
+     margin-top: 10px;
+     display: flex;
+     width: 94%;
+     height: 300px;
+     justify-content: center;
+     border-radius: 20px;
+ }
 
 /* ========================== 
      ---- section style
@@ -156,7 +173,25 @@ header .hero__text{
 ============================ */
 
 
-@media only screen and (max-width: 480px) {}
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 480px) {
+
+
+
+header {
+    
+     min-height: 80vh;
+	
+}
+
+
+     header .home__img {
+          margin: 0 auto;
+          display: block;
+          max-width: 70%;
+     }
+}
+@media only screen and (max-width: 768px) {
+   
+}
 @media only screen and (max-width: 1024px) {}
 @media only screen and (max-width: 1200px) {}
